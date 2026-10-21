@@ -1,0 +1,317 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+
+button {
+    margin-top: 30px;
+    background-color: black;
+    color: #ffff;
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+img.D {
+    width: 500px;
+    margin-right: 40px;
+    background-color: rgb(201, 252, 252);
+    height: 400px;
+    width: 500px;
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item1 {
+    background-color: black;
+    color: #ffff;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.item2 {
+    background-color: rgb(26, 219, 219);
+    color: #ffff;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.item3 {
+    background-color: rgb(24, 125, 125);
+    color: #ffff;
+    padding: 50px;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.About {
+    text-align: center;
+    padding: 50px;
+}
+
+i.fa-solid.fa-anchor {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.about-btn {
+    display: block;
+}
+
+h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+h6 {
+    font-size: large;
+    text-align: center;
+    background-color: #ffff;
+    border: 1px black solid;
+    margin-top: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Display {
+    display: flex;
+    color: #ffff;
+}
+
+.display-text {
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(26, 219, 219);
+    width: 800px;
+    height: 500px;
+
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.display-btn {
+    display: block;
+    margin-top: 50px;
+}
+
+.display-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(26, 219, 219);
+    font-size: medium;
+    text-align: center;
+    background-color: #ffff;
+    padding: 10px;
+    border-radius: 70px;
+    width: 200px;
+}
+
+img.C {
+    width: 500px;
+    height: 500px;
+}
+
+.Service {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-text h4 {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.service-order {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.order i {
+    background-color: rgb(26, 219, 219);
+    color: #ffff;
+    font-size: x-large;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+h5 {
+    font-size: larger;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.service-btn button {
+    font-size: large;
+    text-align: center;
+    color: black;
+    background-color: #ffff;
+    border: 1px black solid;
+    margin-top: 40px;
+    width: 300px;
+    margin-right: -730px;
+    cursor: pointer;
+
+}
+
+.Ban {
+    display: flex;
+}
+
+.ban-text {
+
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(201, 192, 192);
+    width: 800px;
+    height: 500px;
+
+}
+.ban-btn button{
+    background-color: rgb(26, 219, 219);
+}
+img.E{
+    width: 500px;
+    height: 500px;
+}
+.ban-text h4{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.Build{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(26, 219, 219);
+    color: #ffff;
+    padding: 50px;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.build-text h4{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+.build-btn button{
+    color:rgb(26, 219, 219);
+    background-color: #ffff;
+}
+.BMS{
+    text-align: center;
+    padding: 50px;
+}
+.BMS h4{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.BMS-BTN button{
+    margin-top: 300px;
+}
+
+@media (max-width:768px) {
+    .hero{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .hero-btn{
+        margin-bottom: 30px;
+    }
+
+    .hero-bottom{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .Display{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .display-text{
+        margin-top: 30px;
+        width: 100%;
+    }
+    img.C {
+    width: 100%;
+}
+.service-order{
+    display: flex;
+    flex-direction: column;
+}
+.service-btn button{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Ban{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ban-text{
+    width: 100%;
+}
+img.E{
+    width: 100%;
+}
+
+
+}
