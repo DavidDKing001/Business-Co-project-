@@ -282,15 +282,18 @@ img.E{
     }
 
     .Display{
+        align-items: center;
         display: flex;
         flex-direction: column;
         width: 100%;
     }
     .display-text{
         width: 100%;
+        align-items: center;
     }
     img.C {
     width: 100%;
+    align-items: center;
 }
 .service-order{
     display: flex;
@@ -300,22 +303,27 @@ img.E{
     display: flex;
     flex-direction: column;
     width:100%;
+    
 }
 .Ban{
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 .ban-text{
     width:100%;
+    align-items: center;
 }
 img.E{
     width: 100%;
+    align-items: center;
 }
 .Build{
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 
 
