@@ -278,6 +278,7 @@ img.E{
         display: flex;
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
 
     .Display{
@@ -286,7 +287,6 @@ img.E{
         width: 100%;
     }
     .display-text{
-        margin-top: 30px;
         width: 100%;
     }
     img.C {
@@ -299,7 +299,7 @@ img.E{
 .service-btn button{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width:100%;
 }
 .Ban{
     display: flex;
@@ -307,9 +307,14 @@ img.E{
     width: 100%;
 }
 .ban-text{
-    width: 100%;
+    width:100%;
 }
 img.E{
+    width: 100%;
+}
+.Build{
+    display: flex;
+    flex-direction: column;
     width: 100%;
 }
 
